@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ISI-point-based-looting" />
+	<DisplayName value="ISI Point Based Looting" />
+	<Version value="1.0.0.0" />
+	<Description value="This mod increases loot probability based on the number of skill points invested in the associated perks." />
+	<Author value="IronSharkInc" />
+	<Website value="TODO" />
+</xml>

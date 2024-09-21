@@ -1,0 +1,143 @@
+<config>
+    <!-- PERCEPTION -->
+    <!-- rifleSkill, ammo762mm, riflesCSM, sniperProb -->
+    <set xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='sniperProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- explosivesSkill, explosivesCSM -->
+    <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- spearSkill, spearsCSM, spearHunterProb -->
+    <set xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='spearHunterProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- huntingProb -->
+    <set xpath="/progression/perks/perk[@name='perkAnimalTracker']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='huntingProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkAnimalTracker']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3</set>
+    <set xpath="/progression/perks/perk[@name='perkAnimalTracker']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,6,12</set>
+
+    <!-- luckyProb -->
+    <set xpath="/progression/perks/perk[@name='perkLuckyLooter']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='luckyProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkLuckyLooter']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkLuckyLooter']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,4,6,9,14</set>
+
+    <!-- salvagingSkill, salvageToolsCSM, wastelandProb -->
+    <set xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='wastelandProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,4,6,9,14</set>
+
+
+    <!-- STRENGTH -->
+    <!-- shotgunSkill, ammoShells, shotgunsCSM, shotgunMessiahProb -->
+    <set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='shotgunMessiahProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- clubSkill, clubsCSM, batterUpProb -->
+    <set xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='batterUpProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- sledgeSkill, sledgehammersCSM -->
+    <set xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- armorHeavySkill -->
+    <set xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4</set>
+    <set xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13</set>
+
+    <!-- perkMasterChef2, foodSkill, foodCSM -->
+    <!-- NOTE: left perkMasterChef2 unaltered -->
+    <set xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3</set>
+    <set xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,6,12</set>
+
+    <!-- harvestingSkill, harvestingToolsCSM, artOfMiningProb -->
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='artOfMiningProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,4,6,9,14</set>
+
+
+    <!-- FORTITUDE -->
+    <!-- knuckleSkill, knucklesCSM, barBrawlingProb -->
+    <set xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='barBrawlingProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- machinegunSkill, ammo762mm, machineGunsCSM, autoWeaponsProb -->
+    <set xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='autoWeaponsProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- firemansProb -->
+    <set xpath="/progression/perks/perk[@name='perkWellInsulated']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='firemansProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkWellInsulated']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3</set>
+    <set xpath="/progression/perks/perk[@name='perkWellInsulated']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,6,12</set>
+
+    <!-- perkLivingOffTheLand -->
+    <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+
+    <!-- AGILITY -->
+    <!-- bowSkill, bowsCSM, rangersProb -->
+    <set xpath="/progression/perks/perk[@name='perkArchery']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='rangersProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkArchery']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkArchery']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- handgunSkill, ammo9mm, handgunsCSM, pistolPeteProb, enforcerProb -->
+    <set xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='pistolPeteProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='enforcerProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- bladeSkill, bladesCSM -->
+    <set xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- armorMediumSkill -->
+    <set xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4</set>
+    <set xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13</set>
+
+    <!-- urbanProb -->
+    <set xpath="/progression/perks/perk[@name='perkHiddenStrike']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='urbanProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkHiddenStrike']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkHiddenStrike']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- nightStalkerProb -->
+    <set xpath="/progression/perks/perk[@name='perkFromTheShadows']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='nightStalkerProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkFromTheShadows']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkFromTheShadows']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+
+    <!-- INTELLECT -->
+    <!-- roboticsSkill, roboticsCSM, techJunkieProb -->
+    <set xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='techJunkieProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,5,8,13,22</set>
+
+    <!-- roboticsSkill, roboticsCSM, techJunkieProb -->
+    <set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='techJunkieProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">4,7,10,15,22</set>
+
+    <!-- medicalSkill, medicalCSM -->
+    <set xpath="/progression/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">4,9,14,18,22</set>
+
+    <!-- electricianSkill, trapsSkill, workstationSkill, repairingSkill, electricianCSM, trapsCSM, workstationCSM, repairToolsCSM -->
+    <set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,6,10,15,22</set>
+
+    <!-- vehiclesSkill, vehiclesCSM -->
+    <set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">3,6,10,15,22</set>
+
+    <!-- workstationCSM, greatHeistProb -->
+    <set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LootProb' and @value='1,1' and @tags='greatHeistProb']/@operation">base_set</set>
+    <set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@level">1,2,3</set>
+    <set xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='LootProb' and @operation='perc_add']/@value">2,6,12</set>
+
+</config>
