@@ -1,4 +1,4 @@
-# ISI-point-boosted-looting
+# ISI-point-based-looting
 
 A 7 Days to Die (7D2D) mod that increases the loot boost of the vanilla perk based looting system to make it even more likely that the loot, magazines, and books you find are actually related to the perks you have invested in.
 
