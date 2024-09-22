@@ -1,8 +1,10 @@
-# ISI-point-based-looting
+# ISI-point-boosted-looting
 
-A 7 Days to Die (7D2D) mod that increases loot odds based on the number of skill points invested in the related perks. Basically it makes it much more likely that you will get loot, magazines, and books related to the perks you invest your skill points in.
+A 7 Days to Die (7D2D) mod that increases the loot boost of the vanilla perk based looting system to make it even more likely that the loot, magazines, and books you find are actually related to the perks you have invested in.
 
-For example, to get the 5th level of Dead Eye you have to spend 16 skill points in Perception (to get to level 10) and 5 skill points in Dead Eye for a total of 21 points. With vanilla you would get a 10 point boost, but with this mod you get a 21 point boost in Dead Eye related loot.
+Instead of a flat boost, the modifier now scales with the total number of skill points invested in that perk. In most situations this raises the boost from 10 to 21.
+
+For example, to get the 5th level of Dead Eye you have to spend 16 skill points in Perception (to get to level 10) and 5 skill points in Dead Eye for a total of 21 points. With vanilla you would get a 10 point boost, but with this mod you get a 21 point boost.
 
 NOTE: Because some perks let you invest more skill points than others, the loot ceiling for those skills is higher than others. In general, that means you are twice as likely to find loot related to weapons and Intellect perks.
 
